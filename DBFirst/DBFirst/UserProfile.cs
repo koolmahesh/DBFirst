@@ -12,12 +12,8 @@ namespace DBFirst
     using System;
     using System.Collections.Generic;
     
-    public partial class CourseSection
+    public partial class UserProfile
     {
-        public int SectionID { get; set; }
-        public int CourseID { get; set; }
-        public string Title { get; set; }
-    
-        public virtual Course Cours { get; set; }
+        public int UserProfileID { get; set; }
     }
 }
